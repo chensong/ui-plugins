@@ -12,13 +12,13 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-02-21T19:48:20.42731592+08:00"
+    created: "2023-02-21T20:14:24.109860335+08:00"
     description: Example extension that changes the landing home page
-    digest: f1a7dd3bd37ba8db1bc0a44f4800e8295e5576f53042dc417547d1ac443d3bd9
+    digest: 906c8912ccd5863830dbbbbf778fe92cc2567a4eb226b1a63b4b48c13610f651
     icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/home/logo.svg
     name: home
     type: application
     urls:
     - assets/home/home-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-21T19:48:20.427009161+08:00"
+generated: "2023-02-21T20:14:24.109534428+08:00"
