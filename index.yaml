@@ -12,14 +12,35 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-02-23T18:04:28.49725117+08:00"
+    created: "2023-02-23T18:10:29.332316597+08:00"
     description: Example extension that changes the landing home page
-    digest: f42d7d91fa581b10feb100223bf3bbc460d13ee3db943379b22d9f0726e6384a
+    digest: 3f4da29c0c3591acedb3e2093892608bd77dabf59e96a1973f7b1abdf83e9e3d
     icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/zcustom/logo.svg
     name: custom
     type: application
     urls:
     - assets/zcustom/custom-0.0.1.tgz
+    version: 0.0.1
+  custom-top-level-menu:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.25.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-02-23T18:10:13.651232043+08:00"
+    description: Example extension that changes the landing home page
+    digest: 71d63d7895d330ec1012300134a308a2ca94c0b4e0185a5ae17b52f4c421bd1b
+    icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/custom-top-level-menu/logo.svg
+    name: custom-top-level-menu
+    type: application
+    urls:
+    - assets/custom-top-level-menu/custom-top-level-menu-0.0.1.tgz
     version: 0.0.1
   customTopLevelMenu:
   - annotations:
@@ -62,6 +83,27 @@ entries:
     urls:
     - assets/customTopLevelMenu/customTopLevelMenu-0.0.1.tgz
     version: 0.0.1
+  global-project:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.25.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.0.2
+    created: "2023-02-23T18:10:21.361599295+08:00"
+    description: Example extension that changes the landing home page
+    digest: faa139d892ef5faacbdacbd4c9decd8b37595249f24f22fe8047733d6e1180d7
+    icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/global-project/logo.svg
+    name: global-project
+    type: application
+    urls:
+    - assets/global-project/global-project-0.0.2.tgz
+    version: 0.0.2
   globalProject:
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -124,4 +166,4 @@ entries:
     urls:
     - assets/home/home-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-23T18:04:28.496894801+08:00"
+generated: "2023-02-23T18:10:29.331973351+08:00"

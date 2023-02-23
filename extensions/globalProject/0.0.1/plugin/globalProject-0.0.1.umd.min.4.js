@@ -1,2 +1,0 @@
-(("undefined"!==typeof self?self:this)["webpackJsonpglobalProject_0_0_1"]=("undefined"!==typeof self?self:this)["webpackJsonpglobalProject_0_0_1"]||[]).push([[4],{de56:function(e,o){const t=[{product:{globalProject:"租户管理"},nav:{home:"租户/集群",group:{globalProject:"租户管理"}},typeLabel:{"management.fzyun.io.globalproject":"{count, plural,\n  one { 租户 }\n  other { 租户 }\n}"},globalProject:{tableHeaders:{name:"租户名称",memberCount:"成员数",clusterCount:"集群数",clusters:"租户集群"}}}];e.exports=t.length<=1?t[0]:t}}]);
-//# sourceMappingURL=globalProject-0.0.1.umd.min.4.js.map

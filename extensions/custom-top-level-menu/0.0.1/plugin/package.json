@@ -1,0 +1,20 @@
+{
+  "name": "custom-top-level-menu",
+  "description": "Example extension that changes the landing home page",
+  "version": "0.0.1",
+  "private": false,
+  "rancher": true,
+  "icon": "https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/custom-top-level-menu/logo.svg",
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/cli-plugin-typescript": "^4.5.15"
+  },
+  "files": [
+    "**/*"
+  ],
+  "main": "custom-top-level-menu-0.0.1.umd.min.js"
+}

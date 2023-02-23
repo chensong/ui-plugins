@@ -1,5 +1,0 @@
-plugin/customTopLevelMenu-0.0.2.umd.min.1.js
-plugin/customTopLevelMenu-0.0.2.umd.min.1.js.map
-plugin/customTopLevelMenu-0.0.2.umd.min.js
-plugin/customTopLevelMenu-0.0.2.umd.min.js.map
-plugin/package.json
