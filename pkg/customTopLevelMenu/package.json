@@ -1,7 +1,7 @@
 {
   "name": "customTopLevelMenu",
   "description": "Example extension that changes the landing home page",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "rancher": true,
   "icon": "https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/custom/logo.svg",
