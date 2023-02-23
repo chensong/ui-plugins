@@ -1,4 +1,4 @@
-# ui-plugin-examples
+    i-plugin-examples
 Example Extensions for the Rancher Dashboard UI.
 
 This repository contains the following example extensions in the `pkg` folder.

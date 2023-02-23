@@ -1,5 +1,47 @@
 apiVersion: v1
 entries:
+  custom:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.25.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-02-23T17:45:52.446614139+08:00"
+    description: Example extension that changes the landing home page
+    digest: 5bb5a12d7cf16979f2b335e93d352e231a763c15f7bd064c29745c767c75f8aa
+    icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/zcustom/logo.svg
+    name: custom
+    type: application
+    urls:
+    - assets/zcustom/custom-0.0.1.tgz
+    version: 0.0.1
+  customTopLevelMenu:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0 < 1.25.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-02-23T17:45:38.462747055+08:00"
+    description: Example extension that changes the landing home page
+    digest: 29bbc9ad3cf94b4ea28f30d8416d5a84355681703c88fcb87048fef4dcdbc4aa
+    icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/custom/logo.svg
+    name: customTopLevelMenu
+    type: application
+    urls:
+    - assets/globalProject/customTopLevelMenu-0.0.1.tgz
+    version: 0.0.1
   home:
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -21,4 +63,4 @@ entries:
     urls:
     - assets/home/home-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-21T20:14:24.109534428+08:00"
+generated: "2023-02-23T17:45:52.446280803+08:00"

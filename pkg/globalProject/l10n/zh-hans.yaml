@@ -1,0 +1,21 @@
+product:
+  globalProject: 租户管理
+
+nav:
+  home: 租户/集群
+  group:
+    globalProject: 租户管理
+
+typeLabel:
+  management.fzyun.io.globalproject: |-
+    {count, plural,
+      one { 租户 }
+      other { 租户 }
+    }
+
+globalProject:
+  tableHeaders:
+    name: 租户名称
+    memberCount: 成员数
+    clusterCount: 集群数
+    clusters: 租户集群

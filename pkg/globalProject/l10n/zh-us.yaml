@@ -1,0 +1,19 @@
+nav:
+  home: GlobalProject/Cluster
+  globalProject: GlobalProject
+  group:
+    globalProject: GlobalProject
+
+typeLabel:
+  management.fzyun.io.globalproject: |-
+    {count, plural,
+      one { GlobalProject }
+      other { GlobalProject }
+    }
+
+globalProject:
+  tableHeaders:
+    name: Name
+    memberCount: Members Count
+    clusterCount: Clusters Count
+    clusters: Clusters
