@@ -12,9 +12,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-02-23T17:50:16.629601012+08:00"
+    created: "2023-02-23T17:57:27.229487505+08:00"
     description: Example extension that changes the landing home page
-    digest: b414a68518ea9ed683de660f2842bd6bbbfaabd21d52c2756e5d13cc5ea98d44
+    digest: efc3e273f9c09aa2f1c55cb9c2035a331f629164a961dada032d1ddf3913ccbc
     icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/zcustom/logo.svg
     name: custom
     type: application
@@ -33,14 +33,14 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-02-23T17:50:06.372848387+08:00"
+    created: "2023-02-23T17:57:13.614728484+08:00"
     description: Example extension that changes the landing home page
-    digest: 29bbc9ad3cf94b4ea28f30d8416d5a84355681703c88fcb87048fef4dcdbc4aa
+    digest: 90a33a05c8306be5df2a3e91ddf6f4f66b320f744f9901be13e21429fdc2f961
     icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/custom/logo.svg
     name: customTopLevelMenu
     type: application
     urls:
-    - assets/globalProject/customTopLevelMenu-0.0.1.tgz
+    - assets/customTopLevelMenu/customTopLevelMenu-0.0.1.tgz
     version: 0.0.1
   globalProject:
   - annotations:
@@ -54,9 +54,9 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-02-23T17:50:06.373035958+08:00"
+    created: "2023-02-23T17:57:18.186651814+08:00"
     description: Example extension that changes the landing home page
-    digest: 85c4534c6f5646e9809874599d976bc9b3b9e32a9e77403081e323ba0662af0a
+    digest: 3926f6d0613aa649069d35d3b23deaba132c5c0aa313014a4251df90297132d6
     icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/custom/logo.svg
     name: globalProject
     type: application
@@ -75,13 +75,13 @@ entries:
       catalog.cattle.io/ui-component: plugins
     apiVersion: v2
     appVersion: 0.0.1
-    created: "2023-02-21T20:14:24.109860335+08:00"
+    created: "2023-02-23T17:57:22.693634744+08:00"
     description: Example extension that changes the landing home page
-    digest: 906c8912ccd5863830dbbbbf778fe92cc2567a4eb226b1a63b4b48c13610f651
+    digest: b4d712f60041cb2b455f147505ba95afc3ab0a70906ced689c483985cff5bd8e
     icon: https://raw.githubusercontent.com/chensong/ui-plugins/develop/pkg/home/logo.svg
     name: home
     type: application
     urls:
     - assets/home/home-0.0.1.tgz
     version: 0.0.1
-generated: "2023-02-23T17:50:16.629267157+08:00"
+generated: "2023-02-23T17:57:27.229141405+08:00"
